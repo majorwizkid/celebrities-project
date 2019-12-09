@@ -1,0 +1,69 @@
+<!DOCTYPE html/>
+
+<html>
+
+<head>
+<!--Name: Michael Davis ISAT 340 Section: 1--> 
+<title>  </title>
+<link type="text/css" rel="stylesheet" href="static/style.css"/>
+</head>
+<body>
+<fieldset>
+	<legend>Profile information:</legend>
+<form action="action_page.php" method="post">
+<Table Border=1>     
+
+<p> Please <strong>update</strong> your profile information on the following form <br>
+	<em>All fields are required and must contain valid information</em>
+<p>
+<TR>	
+	<TD> Member ID:</TD>
+	<TD> <input type="text" name="memberID" value="1" readonly/></TD>
+	
+	
+</TR>
+
+<TR>
+	<TD> First name:</TD>
+	<TD> <input type="text" name="firstname" value="Michael"/></TD>
+	
+	
+</TR>
+<TR>
+	<TD> Last Name:</TD>
+	<TD> <input type="text" name="lastname" value="Davis"/></TD>
+	
+</TR>
+<TR>
+	<TD> Age:</TD>
+	<TD> <input type="text" name="age" value="23"/></TD>
+	
+</TR>
+<TR>
+	<TD> Email:</TD>
+	<TD> <input type="text" name="email" value="davis2mb@dukes.jmu.edu"> <em> e.g. user@domain.com</em>/></TD>
+	
+</TR>
+<TR>
+	<TD><img src="{{url_for('static', filename='me.jpg')}}"width="110" height="130"></TD>
+	<TD> <textarea name="Bio" rows=8 cols = 50>I was born in Durham, NC but only lived there until I was 10. I then moved to Winchester where I went to John Handley High School. </textarea> </TD>
+	
+</TR>
+<br><br>
+<TR>
+	<TD colspan=3><input type="submit" value="Click to Update"/></TD>
+</TR>
+<br>
+<TR>
+
+</TR>
+</fieldset>
+</form>
+<TD><a href="/view_all_celebs.htm">Click to view all of the celebrities</a><TD>
+<TD><a href="/view_one_celeb.htm">Click to view one of the celebrities</a><TD>
+<hr>
+
+
+</body>
+
+</html>
